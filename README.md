@@ -22,7 +22,7 @@
         * edge_detector EDGE_DE
         * timer_parameter #(.COUNTER_VALUE(999_999)) T0 // COUNTER_VALUE = 999_999(De10 nano 50Mhz) or 1_999_999(Arty z7 100Mhz)
 
-        * ![alt text](Image/RTL_ANALYSIS.png)
+        > ![alt text](Image/RTL_ANALYSIS.png)
 
 * Performance (implementation on Arty z7)
 ![alt text](Image/performance1.png)
