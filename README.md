@@ -43,4 +43,4 @@
     > ![alt text](Image/pin.png)
 
     * Test
-    > | ![Image 1](pin1.jpg) | ![Image 2](pin1.jpg) |
+    > | ![Image 1](Image/pin1.jpg) | ![Image 2](Image/pin1.jpg) |
