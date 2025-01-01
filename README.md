@@ -43,5 +43,4 @@
     > ![alt text](Image/pin.png)
 
     * Test
-    > <img src="pin1.jpg" alt="Image 1" style="display:inline-block; margin-right: 0;">
-      <img src="pin2.jpg" alt="Image 2" style="display:inline-block;">
+    > | ![Image 1](pin1.jpg) | ![Image 2](pin1.jpg) |
