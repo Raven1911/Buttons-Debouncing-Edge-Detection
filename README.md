@@ -1,5 +1,5 @@
 # Buttons-Debouncing-Edge-Detection
-# System Clock up to 200 MHZ (Depended on LUTs technology of Arty z7)
+# System Clock up to 200 MHz (Depended on LUTs technology of Arty z7)
 * Dealing with Buttons in Verilog Debouncing &amp; Edge Detection
 
 > ![alt text](Image/Dealing%20with%20Buttons.png)
@@ -20,7 +20,7 @@
     * debouncer_delayed
         * debouncer_delayed_fsm FSM0
         * edge_detector EDGE_DE
-        * timer_parameter #(.COUNTER_VALUE(999_999)) T0 // COUNTER_VALUE = 999_999(De10 nano 50Mhz) or 1_999_999(Arty z7 100Mhz)
+        * timer_parameter #(.COUNTER_VALUE(999_999)) T0 // COUNTER_VALUE = 999_999(De10 nano 50MHz) or 1_999_999(Arty z7 100MHz)
 
         > ![alt text](Image/RTL_ANALYSIS.png)
 
@@ -32,5 +32,8 @@
 
 
 * Simulation
-> ![alt text](Image/sim1.png)
-> ![alt text](Image/sim2.png)
+    * Behavioral Simulation
+    > ![alt text](Image/sim1.png)
+    > ![alt text](Image/sim2.png)
+
+    * Post-Synthesis Timing Simulation

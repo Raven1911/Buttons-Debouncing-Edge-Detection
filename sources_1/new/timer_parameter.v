@@ -33,6 +33,7 @@ module timer_parameter
     
     reg [BITS-1:0] counter = 0;
     
+    // before no optimize --> clock up to 40MHz
     // always @(posedge clk, negedge reset_n) begin
     //     if(~reset_n) begin 
     //         Q_reg <= 'b0;
@@ -52,6 +53,7 @@ module timer_parameter
     //         Q_next <= Q_next + 1;
     // end
 
+    // Affter  optimize --> clock up to 200MHz
     always @(posedge clk or negedge reset_n)begin
         if(~reset_n)begin
             counter <= 'b0;
