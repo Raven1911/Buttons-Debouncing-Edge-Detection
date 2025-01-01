@@ -37,6 +37,7 @@
     > ![alt text](Image/sim2.png)
 
     * Post-Synthesis Timing Simulation
+    > ![alt text](Image/sim3.png)
 
 * Demo on the De10 Nano board
     * Pin Planner
