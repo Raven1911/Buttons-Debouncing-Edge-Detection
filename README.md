@@ -37,3 +37,11 @@
     > ![alt text](Image/sim2.png)
 
     * Post-Synthesis Timing Simulation
+
+* Demo on the De10 Nano board
+    * Pin Planner
+    > ![alt text](Image/pin.png)
+
+    * Test
+    > <img src="pin1.jpg" alt="Image 1" style="display:inline-block; margin-right: 0;">
+      <img src="pin2.jpg" alt="Image 2" style="display:inline-block;">
