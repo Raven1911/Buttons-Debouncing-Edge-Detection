@@ -36,6 +36,9 @@
     > ![alt text](Image/sim1.png)
     > ![alt text](Image/sim2.png)
 
+    * Post-Synthesis Functional Simulation
+    > ![alt text](Image/sim4.png)
+
     * Post-Synthesis Timing Simulation
     > ![alt text](Image/sim3.png)
 
