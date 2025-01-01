@@ -13,3 +13,5 @@
 * Edge_Detection_FSM (MEARLY FSM)
 
 ![alt text](Image/Edge_Detection_FSM.png)
+
+# Implementation
