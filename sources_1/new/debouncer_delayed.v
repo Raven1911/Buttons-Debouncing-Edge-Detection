@@ -58,7 +58,7 @@ module debouncer_delayed(
     
     );
     //set COUNTER_VALUE time bounces //arty z7 = 1_999_999(100Mhz), de10 = 999_999 (50MhZ)
-    timer_parameter #(.COUNTER_VALUE(999_999)) T0(
+    timer_parameter #(.COUNTER_VALUE(1_999_999)) T0(
         .clk(clk),
         .reset_n(~timer_reset),
         .enable(~timer_reset),
