@@ -16,9 +16,14 @@
 
 # Implementation
 
-Hierarchy module:
+* Hierarchy module:
+    * debouncer_delayed
+        * debouncer_delayed_fsm FSM0
+        * edge_detector EDGE_DE
+        * timer_parameter #(.COUNTER_VALUE(999_999)) T0 // COUNTER_VALUE = 999_999(De10 nano 50Mhz) or 1_999_999(Arty z7 100Mhz)
 
-* debouncer_delayed
-    * debouncer_delayed_fsm FSM0
-    * edge_detector EDGE_DE
-    * timer_parameter #(.COUNTER_VALUE(999_999)) T0 // COUNTER_VALUE = 999_999(De10 nano 50Mhz) or 1_999_999(Arty z7 100Mhz)
+* Performance (implementation on Arty z7)
+![alt text](Image/performance1.png)
+![alt text](Image/performance2.png)
+![alt text](Image/performance3.png)
+![alt text](Image/performance4.png)
