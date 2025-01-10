@@ -41,6 +41,7 @@ module debouncer_delayed_fsm(
     
     //datapath circuit
     always @(*) begin
+        state_next = state_reg;
         case (state_reg)
             S0: begin
                 if(~noisy)  state_next = S0;
